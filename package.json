@@ -1,0 +1,27 @@
+{
+  "name": "olap-app",
+  "version": "1.0.0",
+  "description": "olap application for stadvdb",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Estrera",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.7",
+    "body-parser": "^1.20.2",
+    "drizzle-orm": "^0.29.3",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.3",
+    "olap-cube-js": "^0.16.1",
+    "postgres": "^3.4.3",
+    "supabase": "^1.142.2"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.20.14"
+  }
+}
